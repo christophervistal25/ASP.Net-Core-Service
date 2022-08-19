@@ -1,0 +1,17 @@
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Infrastructure\obj\Debug\net6.0\Blogg.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Infrastructure\obj\Debug\net6.0\Blogg.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Infrastructure\obj\Debug\net6.0\Blogg.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Infrastructure\obj\Debug\net6.0\Blogg.Infrastructure.AssemblyInfo.cs
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Infrastructure\obj\Debug\net6.0\Blogg.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Infrastructure\bin\Debug\net6.0\Blogg.Infrastructure.deps.json
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Infrastructure\bin\Debug\net6.0\Blogg.Infrastructure.runtimeconfig.json
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Infrastructure\bin\Debug\net6.0\Blogg.Infrastructure.dll
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Infrastructure\bin\Debug\net6.0\Blogg.Infrastructure.pdb
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Infrastructure\obj\Debug\net6.0\Blogg.Infrastructure.dll
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Infrastructure\obj\Debug\net6.0\refint\Blogg.Infrastructure.dll
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Infrastructure\obj\Debug\net6.0\Blogg.Infrastructure.pdb
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Infrastructure\obj\Debug\net6.0\Blogg.Infrastructure.genruntimeconfig.cache
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Infrastructure\obj\Debug\net6.0\ref\Blogg.Infrastructure.dll
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Infrastructure\bin\Debug\net6.0\Blogg.Model.dll
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Infrastructure\bin\Debug\net6.0\Blogg.Model.pdb
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Infrastructure\obj\Debug\net6.0\Blogg.Infrastructure.csproj.CopyComplete

@@ -1,0 +1,12 @@
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\bin\Debug\net6.0\Blogg.Shared.deps.json
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\bin\Debug\net6.0\Blogg.Shared.dll
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\bin\Debug\net6.0\Blogg.Shared.pdb
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\obj\Debug\net6.0\Blogg.Shared.csproj.AssemblyReference.cache
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\obj\Debug\net6.0\Blogg.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\obj\Debug\net6.0\Blogg.Shared.AssemblyInfoInputs.cache
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\obj\Debug\net6.0\Blogg.Shared.AssemblyInfo.cs
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\obj\Debug\net6.0\Blogg.Shared.csproj.CoreCompileInputs.cache
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\obj\Debug\net6.0\Blogg.Shared.dll
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\obj\Debug\net6.0\refint\Blogg.Shared.dll
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\obj\Debug\net6.0\Blogg.Shared.pdb
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\obj\Debug\net6.0\ref\Blogg.Shared.dll
