@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Blogg.Core.Post.Commands;
 using Blogg.Core.Post.Contracts;
 using Blogg.Core.Post.Transports;
 using Blogg.Infrastructure.DatabaseContext;
@@ -15,36 +16,41 @@ namespace Blogg.API.Controllers
     [ApiController]
     public class PostController : ControllerBase
     {
-        private readonly IPostService _postService;
-        
-        public PostController(IPostService postService)
+        private readonly IAddPostCommand _addPostCommand;
+        private readonly IGetPostsQuery _getPostsQuery;
+        private readonly IGetPostQuery _getPostQuery;
+        private readonly IUpdatePostCommand _updatePostCommand;
+        public PostController(IGetPostQuery getPostQuery, IAddPostCommand addPostCommand, IGetPostsQuery getPostsQuery, IUpdatePostCommand updatePostCommand)
         {
-            _postService = postService;
+            _getPostQuery = getPostQuery;
+            _addPostCommand = addPostCommand;
+            _getPostsQuery = getPostsQuery;
+            _updatePostCommand = updatePostCommand;
         }
 
         [HttpGet(template: nameof(GetPosts), Name = nameof(GetPosts))]
         public ActionResult GetPosts()
         {
-            return Ok(_postService.Get());
+            return Ok(_getPostsQuery.Handle());
         }
 
         [HttpGet(template: nameof(GetPost), Name = nameof(GetPost))]
         public ActionResult GetPost(int id)
         {
-            return Ok(_postService.Find(id));
+            return Ok(_getPostQuery.Handle(id));
         }
 
         [HttpPost]
         public IActionResult AddPost([FromBody] PostTransport post)
         {
-            _postService.Create(post);
+            _addPostCommand.Handle(post);
             return Ok();
         }
 
         [HttpPut]
-        public IActionResult EditPost([FromBody] PostTransport data, int id)
+        public IActionResult EditPost([FromBody] PostTransport data)
         {
-            _postService.Update(data);
+            _updatePostCommand.Handle(data);
             return Ok();
         }
 

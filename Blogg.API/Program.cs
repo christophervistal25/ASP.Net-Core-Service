@@ -1,3 +1,4 @@
+using Blogg.Core;
 using Blogg.Core.Post;
 using Blogg.Infrastructure;
 
@@ -9,7 +10,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddInfrastructure(builder.Configuration);
-builder.Services.AddPostConfiguration();
+builder.Services.AddCoreService();
+builder.Services.AddPostService();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "tcG63loYsqXLKNc7wAeLR3ijVDtBUXmado0iJCx9ewXPVyl61DuXIrTmvyUcEikthGP276jFmMQHX2LnFyGJyQ==",
+  "dgSpecHash": "oA9Da+5XhTc+tlpNIhDjNta9Z8HfQkIOXnQMY4Lmp2KO/7GousiOxW2GtFXVJ9JFF71a7SWAoiBtI90COJz/sA==",
   "success": true,
   "projectFilePath": "C:\\Users\\CHRis\\RiderProjects\\Blogg\\Blogg.API\\Blogg.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CHRis\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\CHRis\\.nuget\\packages\\mapster\\7.3.0\\mapster.7.3.0.nupkg.sha512",
+    "C:\\Users\\CHRis\\.nuget\\packages\\mapster.core\\1.2.0\\mapster.core.1.2.0.nupkg.sha512",
     "C:\\Users\\CHRis\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\CHRis\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\CHRis\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",

@@ -288,3 +288,5 @@ C:\Users\CHRis\RiderProjects\Blogg\Blogg.API\bin\Debug\net6.0\Blogg.Core.dll
 C:\Users\CHRis\RiderProjects\Blogg\Blogg.API\bin\Debug\net6.0\Blogg.Shared.dll
 C:\Users\CHRis\RiderProjects\Blogg\Blogg.API\bin\Debug\net6.0\Blogg.Core.pdb
 C:\Users\CHRis\RiderProjects\Blogg\Blogg.API\bin\Debug\net6.0\Blogg.Shared.pdb
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.API\bin\Debug\net6.0\Mapster.dll
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.API\bin\Debug\net6.0\Mapster.Core.dll

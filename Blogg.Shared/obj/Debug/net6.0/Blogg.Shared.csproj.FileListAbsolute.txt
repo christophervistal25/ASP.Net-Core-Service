@@ -10,3 +10,8 @@ C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\obj\Debug\net6.0\Blogg.Shared.dl
 C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\obj\Debug\net6.0\refint\Blogg.Shared.dll
 C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\obj\Debug\net6.0\Blogg.Shared.pdb
 C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\obj\Debug\net6.0\ref\Blogg.Shared.dll
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\bin\Debug\net6.0\Blogg.Infrastructure.dll
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\bin\Debug\net6.0\Blogg.Model.dll
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\bin\Debug\net6.0\Blogg.Infrastructure.pdb
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\bin\Debug\net6.0\Blogg.Model.pdb
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.Shared\obj\Debug\net6.0\Blogg.Shared.csproj.CopyComplete

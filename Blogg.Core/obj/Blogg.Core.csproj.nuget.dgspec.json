@@ -50,6 +50,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -235,7 +239,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\CHRis\\RiderProjects\\Blogg\\Blogg.Infrastructure\\Blogg.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\CHRis\\RiderProjects\\Blogg\\Blogg.Infrastructure\\Blogg.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
