@@ -7,6 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.1" />
       <PackageReference Include="Mapster" Version="7.3.0" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
     </ItemGroup>
@@ -15,6 +16,11 @@
       <ProjectReference Include="..\Blogg.Infrastructure\Blogg.Infrastructure.csproj" />
       <ProjectReference Include="..\Blogg.Model\Blogg.Model.csproj" />
       <ProjectReference Include="..\Blogg.Shared\Blogg.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Post\Contracts" />
+      <Folder Include="Post\Validator" />
     </ItemGroup>
 
 </Project>

@@ -10,4 +10,12 @@
       <ProjectReference Include="..\Blogg.Infrastructure\Blogg.Infrastructure.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Mapster" Version="7.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Contracts" />
+    </ItemGroup>
+
 </Project>

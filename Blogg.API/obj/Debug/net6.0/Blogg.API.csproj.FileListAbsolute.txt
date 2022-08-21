@@ -290,3 +290,6 @@ C:\Users\CHRis\RiderProjects\Blogg\Blogg.API\bin\Debug\net6.0\Blogg.Core.pdb
 C:\Users\CHRis\RiderProjects\Blogg\Blogg.API\bin\Debug\net6.0\Blogg.Shared.pdb
 C:\Users\CHRis\RiderProjects\Blogg\Blogg.API\bin\Debug\net6.0\Mapster.dll
 C:\Users\CHRis\RiderProjects\Blogg\Blogg.API\bin\Debug\net6.0\Mapster.Core.dll
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\CHRis\RiderProjects\Blogg\Blogg.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

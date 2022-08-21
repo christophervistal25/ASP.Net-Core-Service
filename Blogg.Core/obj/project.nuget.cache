@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qgWDR0391IGz5uYONOfAsqUdIydWGdDNfYBjrtb7Z9/5e2fgDcoGqUza74XgKOZp0EOlVTKd3QGmwCJGJ7MejA==",
+  "dgSpecHash": "DjMTlif5dKJESxuMp2L6GwT2zVR1JCUcBbTVPP3dpGof0jC3O4mmEZY664L3MqlN28qXO2Z6jNE5/8gIclK/fg==",
   "success": true,
   "projectFilePath": "C:\\Users\\CHRis\\RiderProjects\\Blogg\\Blogg.Core\\Blogg.Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\CHRis\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
+    "C:\\Users\\CHRis\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.1\\fluentvalidation.aspnetcore.11.2.1.nupkg.sha512",
+    "C:\\Users\\CHRis\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.0\\fluentvalidation.dependencyinjectionextensions.11.2.0.nupkg.sha512",
     "C:\\Users\\CHRis\\.nuget\\packages\\mapster\\7.3.0\\mapster.7.3.0.nupkg.sha512",
     "C:\\Users\\CHRis\\.nuget\\packages\\mapster.core\\1.2.0\\mapster.core.1.2.0.nupkg.sha512",
     "C:\\Users\\CHRis\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

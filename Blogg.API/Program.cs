@@ -1,18 +1,18 @@
 using Blogg.Core;
 using Blogg.Core.Post;
+
 using Blogg.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddCoreService();
 builder.Services.AddPostService();
 builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 
@@ -23,10 +23,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
+app.UseCors(corsPolicyBuilder => corsPolicyBuilder
+    .AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+   );
 
 app.MapControllers();
+
 
 app.Run();

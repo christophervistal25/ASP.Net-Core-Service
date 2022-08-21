@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Blogg.Core.Post.Commands;
-using Blogg.Core.Post.Contracts;
+using Blogg.Core.Post.Queries;
 using Blogg.Core.Post.Transports;
+
 using Blogg.Infrastructure.DatabaseContext;
 using Blogg.Model;
 using Microsoft.AspNetCore.Http;
@@ -16,42 +17,40 @@ namespace Blogg.API.Controllers
     [ApiController]
     public class PostController : ControllerBase
     {
-        private readonly IAddPostCommand _addPostCommand;
-        private readonly IGetPostsQuery _getPostsQuery;
-        private readonly IGetPostQuery _getPostQuery;
-        private readonly IUpdatePostCommand _updatePostCommand;
-        public PostController(IGetPostQuery getPostQuery, IAddPostCommand addPostCommand, IGetPostsQuery getPostsQuery, IUpdatePostCommand updatePostCommand)
-        {
-            _getPostQuery = getPostQuery;
-            _addPostCommand = addPostCommand;
-            _getPostsQuery = getPostsQuery;
-            _updatePostCommand = updatePostCommand;
-        }
 
+        private readonly PostQuery _postQuery;
+        private readonly PostCommand _postCommand;
+     
+        public PostController(PostQuery postQuery, PostCommand postCommand)
+        {
+            _postQuery = postQuery;
+            _postCommand = postCommand;
+        }
+        
         [HttpGet(template: nameof(GetPosts), Name = nameof(GetPosts))]
         public ActionResult GetPosts()
         {
-            return Ok(_getPostsQuery.Handle());
+            return Ok(_postQuery.Handle());
         }
 
         [HttpGet(template: nameof(GetPost), Name = nameof(GetPost))]
         public ActionResult GetPost(int id)
         {
-            return Ok(_getPostQuery.Handle(id));
+            return Ok(_postQuery.Handle(id));
         }
 
         [HttpPost]
-        public IActionResult AddPost([FromBody] PostTransport post)
+        public IActionResult AddPost([FromBody] PostTransport entity)
         {
-            _addPostCommand.Handle(post);
-            return Ok();
+            var post = _postCommand.Handle(entity);
+            return CreatedAtAction(nameof(GetPost), post);
         }
 
-        [HttpPut]
+        [HttpPatch]
         public IActionResult EditPost([FromBody] PostTransport data)
         {
-            _updatePostCommand.Handle(data);
-            return Ok();
+            var post = _postCommand.Handle(data, data.Id);
+            return CreatedAtAction(nameof(GetPost), post);
         }
 
     }
